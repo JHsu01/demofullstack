@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 70vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.landingpage {
+  text-align: center;
+  height: auto;
+  padding-left: 5%;
+  padding-right: 5%;
+  resize: both;
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 25px;
+  margin: 5%;
+}
+
+.landingpage1{
+  text-align: center;
+  color:rgb(255, 255, 255);
+  padding-left: 10%;
+  padding-right: 10%;
+  resize: both;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(255, 255, 255);
+  padding-left: 10%;
+}
+
+.App-link {
+  color: #ff0000;
+}
+
+
+
+.center{
+  text-align: center;
+}
+
+.form{
+  color:rgb(25, 172, 74);
+  width: auto;
+  height: auto;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  resize: both;
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 25px;
+  margin: 5%;
+  text-align: left;
+
+}
+
+
+.App{
+  background-image: url(./components/front.png);
+
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
